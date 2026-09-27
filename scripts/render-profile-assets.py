@@ -97,13 +97,13 @@ body {{ width: {width}px; height: {height}px; overflow: hidden; }}
 
 
 def phone(name, dw=330):
-    css = "body { display: flex; justify-content: center; padding-top: 30px; }"
+    css = "body { display: flex; align-items: flex-start; justify-content: center; padding-top: 30px; }"
     body = f'<figure class="device-phone" style="--dw:{dw}px"><img src="shots/phone-{name}.png" alt="" decoding="sync"></figure>'
     return page(body, css, 460, 830)
 
 
 def watch(name, dw=190):
-    css = "body { display: flex; justify-content: center; padding-top: 70px; }"
+    css = "body { display: flex; align-items: flex-start; justify-content: center; padding-top: 70px; }"
     body = f'<figure class="device-watch" style="--dw:{dw}px"><img src="shots/watch-{name}.png" alt="" decoding="sync"></figure>'
     return page(body, css, 320, 400)
 
