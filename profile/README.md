@@ -7,7 +7,8 @@
 <p align="center">
   <strong>Your AI agents, anywhere you go.</strong><br>
   Follow the coding agents running on your computer from your phone and watch:<br>
-  approve requests, reply, start new tasks and open what they built.
+  approve requests, reply, start new tasks, open what they built,<br>
+  and take over the screen when they get stuck.
 </p>
 
 <p align="center">
@@ -64,10 +65,18 @@ And everything else you would expect from the desk:
 - **Talk or type.** Voice input on phone and watch. Send photos and files to the agent, and see the images it generates.
 - **Review the diff.** Look at a task's uncommitted changes from your phone before you approve or merge.
 - **Start in a new project.** Create a fresh project folder from your phone and put an agent to work in it.
-- **Take over when it's stuck.** If an agent is waiting on a login, a password or a confirmation dialog, open an end-to-end encrypted remote-control view of your computer's screen and finish that step from your phone.
 - **Notifications that keep your privacy.** Get notified when an agent needs approval, needs a reply, finishes or fails. The notification text is encrypted too.
 - **iPad included.** Split view: computers and projects on the left, tasks and results on the right.
 - **11 languages.** The apps are localized in Simplified and Traditional Chinese, English, Japanese, Korean, French, German, Spanish, Italian, Brazilian Portuguese and Russian.
+
+## Take over the screen when an agent gets stuck
+
+Some steps only a human can do: a login page, a password prompt, a confirmation dialog. When an agent hits one, open a live view of your computer's desktop on your phone and finish the step yourself. Your finger is the mouse and the phone keyboard is the keyboard.
+
+- **Live video, not a slideshow.** The screen streams as H.264, so scrolling and typing feel immediate, at a fraction of the bandwidth of sending screenshots.
+- **Encrypted like everything else.** Frames, taps and keystrokes are sealed with a key derived from your group key. The relay only forwards ciphertext.
+- **Shows up when it matters.** If an agent stops to wait for input while a password field is focused on the computer, BotBus attaches a remote-control view to that task and says so in the notification.
+- **Your computer, your rules.** Switch it on and off per computer from your phone. It needs the Screen Recording permission on the computer, plus Accessibility to send clicks and keystrokes; without the latter, the view is read-only.
 
 ## Works with your agents
 
@@ -162,7 +171,8 @@ Whether you can act on a task depends on connector support, the task's state and
 
 <p align="center">
   <strong>随时随地，接管你的 AI Agent。</strong><br>
-  在手机和手表上查看电脑里正在运行的 Agent，随手审批、续聊、派新活、看成果。
+  在手机和手表上查看电脑里正在运行的 Agent，随手审批、续聊、派新活、看成果，<br>
+  卡住了还能直接操作电脑屏幕。
 </p>
 
 <p align="center">
@@ -214,10 +224,18 @@ BotBus 解决的就是这件事。电脑上一个常驻菜单栏的小应用负�
 - **能说也能打字。** 手机和手表都支持语音输入；可以给 Agent 发照片和文件，也能看到它生成的图片。
 - **先看改动再拍板。** 在手机上查看任务的未提交改动，再决定批准或合并。
 - **新项目也能从手机起。** 从手机新建一个项目文件夹，直接让 Agent 在里面开工。
-- **卡住了就接管。** Agent 停在登录、密码或确认弹窗这种只有人能做的一步时，打开端到端加密的远程操作画面，在手机上把这一步做完。
 - **通知不泄露内容。** Agent 需要审批、需要回复、完成或失败时都会通知你，通知正文同样是加密的。
 - **iPad 也在。** 左右双栏：左边看电脑和项目，右边处理任务、查看成果。
 - **11 种语言。** 简体中文、繁体中文、英语、日语、韩语、法语、德语、西班牙语、意大利语、巴西葡萄牙语和俄语。
+
+## Agent 卡住了，直接接管电脑屏幕
+
+有些步骤只有人能做：登录页、密码框、确认弹窗。Agent 停在这一步时，在手机上打开电脑桌面的实时画面，自己把它做完：手指就是鼠标，手机键盘就是键盘。
+
+- **是视频，不是幻灯片。** 画面以 H.264 视频流传输，滚动和打字都跟手，带宽只有逐帧截图的零头。
+- **和其他内容一样加密。** 画面、点按和按键都用组密钥派生的专用密钥密封，中转服务器只转发密文。
+- **该出现时自己出现。** Agent 停下来等输入、电脑上正好有密码框在等着填时，BotBus 会把远程操作画面挂到那条任务上，通知里也会说明。
+- **主动权在你。** 在手机上按电脑逐台开关；电脑上需要「屏幕录制」权限，要发送点击和按键还需要「辅助功能」权限，没有的话只能看不能操作。
 
 ## 支持的 Agent
 
